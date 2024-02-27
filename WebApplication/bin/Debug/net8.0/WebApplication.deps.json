@@ -9,8 +9,8 @@
       "WebApplication/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "webapplication_1": "1.0.0",
-          "webapplication_2": "1.0.0"
+          "WebApplication_1": "1.0.0",
+          "WebApplication_2": "1.0.0"
         },
         "runtime": {
           "WebApplication.dll": {}
@@ -24,21 +24,20 @@
           }
         }
       },
-      "webapplication_1/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "webapplication_2": "1.0.0"
-        },
-        "runtime": {
-          "webapplication_1.dll": {}
-        }
-      },
-      "webapplication_2/1.0.0": {
+      "WebApplication_1/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "webapplication_2.dll": {}
+          "WebApplication_1.dll": {}
+        }
+      },
+      "WebApplication_2/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "WebApplication_2.dll": {}
         }
       }
     }
@@ -56,12 +55,12 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "webapplication_1/1.0.0": {
+    "WebApplication_1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "webapplication_2/1.0.0": {
+    "WebApplication_2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

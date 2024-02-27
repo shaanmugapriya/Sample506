@@ -1,9 +1,3 @@
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_1.deps.json
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_1.runtimeconfig.json
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_2.deps.json
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_2.runtimeconfig.json
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_2
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_1
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/appsettings.Development.json
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/appsettings.json
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/packages.lock.json
@@ -13,10 +7,6 @@
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication.dll
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication.pdb
 /Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/Newtonsoft.Json.dll
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_1.dll
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_2.dll
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_1.pdb
-/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/webapplication_2.pdb
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/WebApplication.csproj.AssemblyReference.cache
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/WebApplication.GeneratedMSBuildEditorConfig.editorconfig
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/WebApplication.AssemblyInfoInputs.cache
@@ -38,3 +28,13 @@
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/WebApplication.pdb
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/WebApplication.genruntimeconfig.cache
 /Users/shaanmugapriya/Sample506/WebApplication/obj/Debug/net8.0/ref/WebApplication.dll
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_1.deps.json
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_1.runtimeconfig.json
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_1
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_1.dll
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_1.pdb
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_2.deps.json
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_2.runtimeconfig.json
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_2
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_2.dll
+/Users/shaanmugapriya/Sample506/WebApplication/bin/Debug/net8.0/WebApplication_2.pdb

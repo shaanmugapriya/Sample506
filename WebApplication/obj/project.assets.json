@@ -15,34 +15,33 @@
           }
         }
       },
-      "webapplication_1/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "webapplication_2": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/webapplication_1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/webapplication_1.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "webapplication_2/1.0.0": {
+      "WebApplication_1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/webapplication_2.dll": {}
+          "bin/placeholder/WebApplication_1.dll": {}
         },
         "runtime": {
-          "bin/placeholder/webapplication_2.dll": {}
+          "bin/placeholder/WebApplication_1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "WebApplication_2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/WebApplication_2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplication_2.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -81,22 +80,22 @@
         "packageIcon.png"
       ]
     },
-    "webapplication_1/1.0.0": {
+    "WebApplication_1/1.0.0": {
       "type": "project",
-      "path": "../webapplication_1/webapplication_1.csproj",
-      "msbuildProject": "../webapplication_1/webapplication_1.csproj"
+      "path": "../WebApplication_1/WebApplication_1.csproj",
+      "msbuildProject": "../WebApplication_1/WebApplication_1.csproj"
     },
-    "webapplication_2/1.0.0": {
+    "WebApplication_2/1.0.0": {
       "type": "project",
-      "path": "../webapplication_2/webapplication_2.csproj",
-      "msbuildProject": "../webapplication_2/webapplication_2.csproj"
+      "path": "../WebApplication_2/WebApplication_2.csproj",
+      "msbuildProject": "../WebApplication_2/WebApplication_2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Newtonsoft.Json >= 13.0.3",
-      "webapplication_1 >= 1.0.0",
-      "webapplication_2 >= 1.0.0"
+      "WebApplication_1 >= 1.0.0",
+      "WebApplication_2 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -124,11 +123,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/shaanmugapriya/Sample506/webapplication_1/webapplication_1.csproj": {
-              "projectPath": "/Users/shaanmugapriya/Sample506/webapplication_1/webapplication_1.csproj"
+            "/Users/shaanmugapriya/Sample506/WebApplication_1/WebApplication_1.csproj": {
+              "projectPath": "/Users/shaanmugapriya/Sample506/WebApplication_1/WebApplication_1.csproj"
             },
-            "/Users/shaanmugapriya/Sample506/webapplication_2/webapplication_2.csproj": {
-              "projectPath": "/Users/shaanmugapriya/Sample506/webapplication_2/webapplication_2.csproj"
+            "/Users/shaanmugapriya/Sample506/WebApplication_2/WebApplication_2.csproj": {
+              "projectPath": "/Users/shaanmugapriya/Sample506/WebApplication_2/WebApplication_2.csproj"
             }
           }
         }
@@ -140,11 +139,6 @@
       },
       "restoreLockProperties": {
         "restorePackagesWithLockFile": "true"
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

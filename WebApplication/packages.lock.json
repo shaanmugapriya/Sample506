@@ -11,8 +11,7 @@
       "webapplication_1": {
         "type": "Project",
         "dependencies": {
-          "Newtonsoft.Json": "[13.0.3, )",
-          "webapplication_2": "[1.0.0, )"
+          "Newtonsoft.Json": "[13.0.3, )"
         }
       },
       "webapplication_2": {

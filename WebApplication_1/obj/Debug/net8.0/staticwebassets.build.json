@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "Ua0SN5GlcnCey8YyeRZrTkLLgHUUhF9WB6923Zhz0bk=",
+  "Hash": "iBJBZ1WpumOebAqV9lzPkGiKWB9OXBmJiWhexYJG2ic=",
   "Source": "WebApplication_1",
   "BasePath": "_content/WebApplication_1",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "/Users/shaanmugapriya/Sample506/webapplication_2/webapplication_2.csproj",
-      "Version": 2,
-      "Source": "webapplication_2",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
