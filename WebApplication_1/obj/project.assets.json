@@ -18,6 +18,9 @@
       "webapplication_2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "compile": {
           "bin/placeholder/webapplication_2.dll": {}
         },
@@ -79,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shaanmugapriya/Sample506/WebApplication_1/WebApplication_1.csproj",
-      "projectName": "WebApplication_1",
-      "projectPath": "/Users/shaanmugapriya/Sample506/WebApplication_1/WebApplication_1.csproj",
+      "projectUniqueName": "/Users/shaanmugapriya/Sample506/webapplication_1/webapplication_1.csproj",
+      "projectName": "webapplication_1",
+      "projectPath": "/Users/shaanmugapriya/Sample506/webapplication_1/webapplication_1.csproj",
       "packagesPath": "/Users/shaanmugapriya/.nuget/packages/",
-      "outputPath": "/Users/shaanmugapriya/Sample506/WebApplication_1/obj/",
+      "outputPath": "/Users/shaanmugapriya/Sample506/webapplication_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/shaanmugapriya/.nuget/NuGet/NuGet.Config"
