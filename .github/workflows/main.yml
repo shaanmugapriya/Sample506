@@ -30,5 +30,11 @@ jobs:
     - name: Test
       run: dotnet test
 
-    - name: Publish
-      run: dotnet publish --configuration Release --output ./published
+    - name: Publish Project 1
+      run: dotnet publish ./WebApplication --configuration Release --output ./published/WebApplication
+
+    - name: Publish Project 2
+      run: dotnet publish ./WebApplication_1 --configuration Release --output ./published/WebApplication_1
+      
+    - name: Publish Project 3
+      run: dotnet publish ./WebApplication_2 --configuration Release --output ./published/WebApplication_2
