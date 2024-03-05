@@ -31,10 +31,10 @@ jobs:
       run: dotnet test
 
     - name: Publish Project 1
-      run: dotnet publish ./WebApplication --configuration Release --output ./published/WebApplication
-
+      run: dotnet publish ./WebApplication/WebApplication.csproj --configuration Release --output ./published/WebApplication
+      
     - name: Publish Project 2
-      run: dotnet publish ./WebApplication_1 --configuration Release --output ./published/WebApplication_1
+      run: dotnet publish ./WebApplication_1/WebApplication_1.csproj --configuration Release --output ./published/WebApplication_1
       
     - name: Publish Project 3
-      run: dotnet publish ./WebApplication_2 --configuration Release --output ./published/WebApplication_2
+      run: dotnet publish ./WebApplication_2/WebApplication_2.csproj --configuration Release --output ./published/WebApplication_2
