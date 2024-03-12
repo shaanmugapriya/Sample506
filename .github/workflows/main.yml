@@ -15,7 +15,7 @@ jobs:
       uses: shaanmugapriya/setup-dotnet@Feature/AddLatest
       with:
        dotnet-version: latest
-       source-url: https://nuget.pkg.github.com/<owner>/index.json
+       source-url: https://nuget.pkg.github.com/shaanmugapriya/index.json
       env:
        NUGET_AUTH_TOKEN: ${{secrets.GIT_TOKEN}}
        
