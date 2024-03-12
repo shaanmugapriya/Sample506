@@ -1,0 +1,29 @@
+name: .NET and Azure Functions Core Tools Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0'  # Replace this with your .NET version
+
+    - name: Install Azure Functions Core Tools
+      run: |
+        curl -L https://aka.ms/func-install | bash
+
+    - name: Build
+      run: dotnet build
+
+    - name: Run tests
+      run: dotnet test
