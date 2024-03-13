@@ -36,5 +36,3 @@ jobs:
       run: dotnet publish ./WebApplication_2/WebApplication_2.csproj --configuration Release --output ./published/WebApplication_2
     - name: Create the package
       run: dotnet pack --configuration Release ./WebApplication_2/WebApplication_2.csproj
-    - name: Publish the package to GPR
-      run: dotnet nuget push ${{ github.workspace }}\WebApplication_2\bin\Release\*.nupkg
